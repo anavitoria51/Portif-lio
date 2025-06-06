@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --cor-principal:rgb(46, 39, 39);
+    --cor-secundaria: #110f11;
+    --cor-destaque: hsla(40, 5%, 22%, 0.844);
+    --cor-de-fundo:rgba(96, 91, 91, 0.8);
+}
+
+body {
+    font-family: 'Lora', sans-serif;
+    background-color: var(--cor-de-fundo);
+}
+
+h1,
+h2,
+h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal);
+}
+
+footer a :hover {
+    color: var(--cor-destaque);
+}
